@@ -1,12 +1,8 @@
 # MIDI Theremin Controller
 
-<!-- IMAGE PLACEHOLDER: Hero Banner -->
-<p align="center">
-  <img src="docs/images/hero-banner.png" alt="MIDI Theremin Controller in action" width="800">
-  <br><sub>Replace with a wide shot of the build, ideally mid-performance.</sub>
-</p>
-
-A gesture-controlled, contact-free MIDI controller. Move your hands in the air, an Arduino tracks them with ultrasonic sensors, and the result comes out as real MIDI — playable through any DAW, on any virtual instrument.
+![MAIN](docs/images/main-pic.png)
+ 
+A gesture-controlled, contact-free MIDI controller. Move your hands in the air, an Arduino tracks them with ultrasonic sensors, and the result comes out as real MIDI  playable through any DAW, on any virtual instrument.
 
  Awarded **First Prize** at the IEEE Project Expo.
 
@@ -63,12 +59,7 @@ An onboard OLED shows the active scale, octave, instrument, MIDI channel, both s
 
 ##  Demo
 
-<!-- IMAGE PLACEHOLDER: Project Demo GIF -->
-<p align="center">
-  <img src="docs/images/demo.gif" alt="MIDI Theremin demo" width="700">
-  <br><sub>Replace with a short loop of a hand gesture producing a note end-to-end.</sub>
-</p>
-
+![DEMO](docs/images/ppt.png)
 <!-- VIDEO PLACEHOLDER: Project Demo Video -->
 >  **Full demo video:** replace this line with a YouTube/Drive link to the complete performance walkthrough.
 
@@ -221,25 +212,18 @@ All grounds share a common rail. Buttons use the Arduino's internal pull-ups (`I
 | | BTN 5 | D7 | Instrument Next (►) |
 
 <!-- IMAGE PLACEHOLDER: Circuit Diagram -->
-<p align="center">
-  <img src="docs/images/circuit-diagram.png" alt="Circuit schematic" width="650">
-  <br><sub>Figure 1 — Replace with the actual schematic showing pin mappings and bus topology.</sub>
-</p>
+![OCRT](docs/images/ocrt.png)
 
 <!-- IMAGE PLACEHOLDER: Hardware Setup Photo -->
-<p align="center">
-  <img src="docs/images/hardware-setup.jpg" alt="Breadboard assembly" width="650">
-  <br><sub>Figure 2 — Replace with a photo of the physical breadboard build.</sub>
-</p>
+![CRT](docs/images/int-circuit.png)
 
-For the full pin-by-pin breakdown, see [`docs/WIRING.md`](docs/WIRING.md).
 
 ---
 
 ##  Setup & Installation
 
 ### 1. Hardware Assembly
-Wire the components per the [Wiring section](#-wiring--schematic) above, or follow [`docs/WIRING.md`](docs/WIRING.md) for the detailed version.
+Wire the components per the [Wiring section](#-wiring--schematic) above for the detailed version.
 
 ### 2. Firmware Installation
 1. Open the [Arduino IDE](https://www.arduino.cc/en/software).
@@ -280,11 +264,7 @@ This part trips people up more than the firmware does — three separate program
 5. Record-arm the track. You're ready to play.
 
 <!-- IMAGE PLACEHOLDER: Cakewalk Screenshot -->
-<p align="center">
-  <img src="docs/images/cakewalk-routing.png" alt="Cakewalk MIDI input routing" width="650">
-  <br><sub>Figure 4 — Replace with a screenshot of the MIDI input device list and track routing.</sub>
-</p>
-
+![SF](docs/images/calkwalker.png)
 ---
 
 ## Usage & Controls
@@ -300,11 +280,6 @@ This part trips people up more than the firmware does — three separate program
 * **Octave (Buttons 2 & 3):** shift the scale root between Octave 1 and 7; notes update live.
 * **Instrument / Channel (Buttons 4 & 5):** cycle through all 18 modes, switching the active MIDI output channel.
 
-<!-- IMAGE PLACEHOLDER: OLED Display Photo -->
-<p align="center">
-  <img src="docs/images/oled-display.jpg" alt="OLED telemetry display" width="500">
-  <br><sub>Replace with a close-up photo of the OLED showing live scale/octave/instrument readout.</sub>
-</p>
 
 ### Scales
 
@@ -386,18 +361,6 @@ MIDI-THEREMIN/
 
 ---
 
-##  Acknowledgements & Authors
-
-Built as a 2nd Semester B.E. (Computer Science & Engineering) mini-project at **East Point College of Engineering & Technology, Bangalore** (2024–25). Later presented at the IEEE Project Expo, where it won First Prize.
-
-### Development Team
-* **Aadityaraaj Pandit** (USN: 1EP24IC001)
-* **Arjun V** (USN: 1EP24IC007)
-* **Himanshu Kumar** (USN: 1EP24IC014)
-* **Vagish P. Shanbhag** (USN: 1EP24IC055)
-
-### Project Mentorship
-* **Guide:** Mrs. Sandhya N, Assistant Professor, Department of ECE, EPCET.
 
 ### References
 1. *Nerd Musician* — [Arduino MIDI Tutorial Resources](https://www.youtube.com/@NerdMusician)
