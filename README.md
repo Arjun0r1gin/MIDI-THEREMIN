@@ -31,11 +31,11 @@ What started as a simple idea from a reel eventually became a fully functional M
 
 ## Overview
 
-A traditional theremin generates its own audio waveform directly, through analog heterodyning oscillators — move your hand, the pitch changes, that's the whole instrument. This project takes a different approach: instead of generating sound itself, it acts as a **MIDI controller**.
+A traditional theremin generates its own audio waveform directly, through analog heterodyning oscillators  move your hand, the pitch changes, that's the whole instrument. This project takes a different approach: instead of generating sound itself, it acts as a **MIDI controller**.
 
 Two ultrasonic sensors track hand position and convert that into MIDI messages, which get routed into a DAW running any virtual instrument:
 
-* **Right Hand (Pitch Axis):** controls note selection — distance maps to discrete steps within whichever scale is active.
+* **Right Hand (Pitch Axis):** controls note selection  distance maps to discrete steps within whichever scale is active.
 * **Left Hand (Expression Axis):** controls either MIDI CC 7 (volume) or pitch bend, depending on the loaded instrument patch.
 
 An onboard OLED shows the active scale, octave, instrument, MIDI channel, both sensor distances, and the current output value, so you can see what's actually being sent without guessing. Six tactile buttons let you change octave, scale, and instrument mid-performance.
@@ -64,7 +64,7 @@ An onboard OLED shows the active scale, octave, instrument, MIDI channel, both s
 ---
 Watch the demo video here:
 
-[MIDI Theremin Demo](docs/videos/demo.mp4)
+▶️ [MIDI Theremin Demo](docs/videos/demo.mp4)
 ---
 
 ## System Architecture
@@ -212,10 +212,12 @@ All grounds share a common rail. Buttons use the Arduino's internal pull-ups (`I
 | | BTN 3 | D5 | Octave Up (▲) |
 | | BTN 4 | D6 | Instrument Previous (◄) |
 | | BTN 5 | D7 | Instrument Next (►) |
-
+---
+# Circuit diagram
 <!-- IMAGE PLACEHOLDER: Circuit Diagram -->
 ![OCRT](docs/images/ocrt.png)
-
+---
+# Internal connection 
 <!-- IMAGE PLACEHOLDER: Hardware Setup Photo -->
 ![CRT](docs/images/int-circuit.png)
 
@@ -237,7 +239,7 @@ Wire the components per the [Wiring section](#-wiring--schematic) above for the 
 
 ### 3. Software MIDI Routing
 
-This part trips people up more than the firmware does — three separate programs need to agree on the same port.
+This part trips people up more than the firmware does, three separate programs need to agree on the same port.
 
 #### A. Create a Virtual Port in loopMIDI
 1. Download and open [loopMIDI](https://www.tobias-erichsen.de/software/loopmidi.html).
@@ -369,6 +371,9 @@ MIDI-THEREMIN/
 5. Kolli, R. & Teja, P. (2018). *MIDI Controller for Virtual Instruments using Arduino Uno*. IEEE ICCIC.
 
 ---
+# Note 
+
+If you also end up getting crazy ideas whcich exciets you and make you stay awake during night times  then ig we should talk!!!
 
 ##  License
 
