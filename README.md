@@ -61,7 +61,9 @@ An onboard OLED shows the active scale, octave, instrument, MIDI channel, both s
 
 ![DEMO](docs/images/ppt.png)
 <!-- VIDEO PLACEHOLDER: Project Demo Video -->
->  **Full demo video:** replace this line with a YouTube/Drive link to the complete performance walkthrough.
+---
+
+![SF](docs/videos/demo.mp4)
 
 ---
 
@@ -243,10 +245,7 @@ This part trips people up more than the firmware does — three separate program
 3. Name it (e.g. `loopMIDI Port`) and leave the app running in the background.
 
 <!-- IMAGE PLACEHOLDER: loopMIDI Screenshot -->
-<p align="center">
-  <img src="docs/images/loopmidi-port.png" alt="loopMIDI virtual port creation" width="500">
-  <br><sub>Figure 3 — Replace with a screenshot of the created virtual port.</sub>
-</p>
+![SF](docs/images/loopmidi.png)
 
 #### B. Bind Serial to MIDI via Hairless MIDI
 1. Download and run [Hairless MIDI↔Serial Bridge](https://projectgus.github.io/hairless-midiserial/).
