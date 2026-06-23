@@ -62,9 +62,9 @@ An onboard OLED shows the active scale, octave, instrument, MIDI channel, both s
 ![DEMO](docs/images/ppt.png)
 <!-- VIDEO PLACEHOLDER: Project Demo Video -->
 ---
+Watch the demo video here:
 
-![SF](docs/videos/demo.mp4)
-
+[MIDI Theremin Demo](docs/videos/demo.mp4)
 ---
 
 ## System Architecture
